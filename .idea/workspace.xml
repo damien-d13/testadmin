@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8875fdc8-dac7-4c25-8c3a-ec2b84793b14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/translations/messages.fr.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/CategoryCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/CategoryCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,6 +155,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -154,11 +168,38 @@
       <updated>1605273519678</updated>
       <workItem from="1605273520848" duration="1578000" />
       <workItem from="1605279176594" duration="4784000" />
-      <workItem from="1605286941407" duration="5175000" />
+      <workItem from="1605286941407" duration="5960000" />
+      <workItem from="1605359662757" duration="6220000" />
+      <workItem from="1605372308334" duration="8510000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="417" y="123" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605365465460">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="417" y="123" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605365465460" />
+    <state x="467" y="123" key="FileChooserDialogImpl" timestamp="1605370385700">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="467" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605370385700" />
+    <state x="188" y="13" key="SettingsEditor" timestamp="1605361277131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="188" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605361277131" />
   </component>
 </project>
