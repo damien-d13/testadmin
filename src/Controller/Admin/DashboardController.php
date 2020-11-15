@@ -32,10 +32,14 @@ class DashboardController extends AbstractDashboardController
 
     public function configureMenuItems(): iterable
     {
-        yield MenuItem::linktoDashboard('Dashboard', 'fa fa-home');
-        yield MenuItem::linkToCrud('Categorie', 'fas fa-folder-open', Category::class);
-        yield MenuItem::linkToCrud('Post', 'fas fa-envelope-open', Post::class)->setDefaultSort(['created_at' => 'DESC']);
-        yield MenuItem::linkToCrud('Tag', 'fas fa-tag', Tag::class);
+        return [
 
+         MenuItem::linktoDashboard('Tableau de bord', 'fa fa-home'),
+         MenuItem::subMenu('Blog')->setSubItems([
+         MenuItem::linkToCrud('Categorie', 'fas fa-folder-open', Category::class),
+         MenuItem::linkToCrud('Post', 'fas fa-envelope-open', Post::class)->setDefaultSort(['created_at' => 'DESC']),
+         MenuItem::linkToCrud('Tag', 'fas fa-tag', Tag::class),
+        ]),
+        ];
     }
 }
